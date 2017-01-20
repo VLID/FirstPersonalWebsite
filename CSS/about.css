@@ -1,0 +1,27 @@
+#al {
+    position: fixed;
+    top: 150px;
+    text-align: left;
+    margin-left: 20%;
+    padding: 2%;
+}
+
+#ar {
+    position: fixed;
+    top: 200px;
+    text-align: left;
+    margin-left: 50%;
+    padding: 2%;
+}
+
+#fb {
+    display: block;
+    position: fixed;
+    top: 200px;
+    margin-left: 30%;
+    padding: 2%;
+    border: dotted;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #333;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Drawing</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+    <script type="text/javascript" src="../JS/photo.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/photo.css">
+</head>
+<body>
+    <section>
+        <div id="photo">
+            <h2>Personal Drawing</h2>
+            <div class="photosDiv">
+                <img class="Photograph" src="pics/D1.JPG" onclick="thumbnailView(this)" onmouseover="hoverOverPhoto(this)" onmouseout="overOffPhoto(this)" alt="Self-Portrait">
+            </div>
+            <div class="photosDiv">
+                <img class="Photograph" src="pics/D2.JPG" onclick="thumbnailView(this)" onmouseover="hoverOverPhoto(this)" onmouseout="overOffPhoto(this)" alt="Lotus">
+            </div>
+            <div class="photosDiv">
+                <img class="Photograph" src="pics/D3.JPG" onclick="thumbnailView(this)" onmouseover="hoverOverPhoto(this)" onmouseout="overOffPhoto(this)" alt="Egg">
+            </div>
+            <div class="photosDiv">
+                <img class="Photograph" src="pics/D4.JPG" onclick="thumbnailView(this)" onmouseover="hoverOverPhoto(this)" onmouseout="overOffPhoto(this)" alt="Body Art">
+            </div>
+            <div class="photosDiv">
+                <img class="Photograph" src="pics/D5.JPG" onclick="thumbnailView(this)" onmouseover="hoverOverPhoto(this)" onmouseout="overOffPhoto(this)" alt="Charcoal Drawing">
+            </div>
+            <div class="photosDiv">
+                <img class="Photograph" src="pics/D6.JPG" onclick="thumbnailView(this)" onmouseover="hoverOverPhoto(this)" onmouseout="overOffPhoto(this)" alt="Charcoal Drawing">
+            </div>
+            <br><br><br><br><br>
+        </div>
+    </section>
+    <div id="photoFullDiv" onclick="fullPhotoClick()"><img id="photoFull" src="pics/D1.JPG" alt="drawing"></div>
+    <header>
+        <h1>Vince Luo's Art World</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="nav" href="../index.html">Home</a></li>
+            <li><a class="nav" href="../articles.html">Articles</a></li>
+            <li class="dropDownMenu">
+                <a class="nav current" href="../artworks.html">Artworks</a>
+                <div class="dropDownContent">
+                    <a href="photograph.html">Photograph</a>
+                    <a href="video.html">Video</a>
+                    <a href="csArt.html">Processing Art</a>
+                    <a class="current" href="drawing.html">Drawing</a>
+                </div>
+            </li>
+            <li class="dropDownMenu">
+                <a class="nav" href="../play.html">Play</a>
+                <div class="dropDownContent">
+                    <a href="../play/drawingApp.html">Drawing APP</a>
+                    <a href="../play/processingApp.html">Processing APP</a>
+                </div>
+            </li>
+            <ul id="rightBar">
+                <li><a class="nav" href="../about.html">About</a></li>
+            </ul>
+        </ul>
+    </nav>
+    <footer>
+        <div>
+            <p>&copy; 2016 Copyright. All Rights Reserved By Vince Luo</p>
+        </div>
+    </footer>
+</body>
+</html>

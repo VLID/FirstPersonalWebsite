@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Processing APP</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/home.css">
+    <script type="text/javascript" src="http://vinceluo.com/2D/processing.js"></script>
+</head>
+<body>
+    <section>
+        <div id="home">
+            <h2>Processing Application</h2>
+            <p>1: <b>Click Mouse</b> to spread the colorful dots.</p>
+            <p>2: Press "<b>E</b>" to speed up dots; Press "<b>Q</b>" to slow down dots; Press "<b>2</b>" to stop dots. You can try to press "<b>1</b>", "<b>3</b>", "<b>4</b>", "<b>5</b>"</p>
+            <canvas data-processing-sources="Bee/Bee.pde"></canvas>
+            <div style="visibility:hidden">
+                <audio autoplay loop>
+                    <source src="http://vinceluo.com/public-folder/music/1.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <br><br><br><br>
+        </div>
+        <script>
+            window.oncontextmenu = function() {
+                return false;
+            } 
+        </script>
+    </section>
+    <header>
+        <h1>Vince Luo's Art World</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="nav" href="../index.html">Home</a></li>
+            <li><a class="nav" href="../articles.html">Articles</a></li>
+            <li class="dropDownMenu">
+                <a class="nav" href="../artworks.html">Artworks</a>
+                <div class="dropDownContent">
+                    <a href="../artworks/photograph.html">Photograph</a>
+                    <a href="../artworks/video.html">Video</a>
+                    <a href="../artworks/csArt.html">Processing Art</a>
+                    <a href="../artworks/drawing.html">Drawing</a>
+                </div>
+            </li>
+            <li class="dropDownMenu">
+                <a class="nav current" href="../play.html">Play</a>
+                <div class="dropDownContent">
+                    <a href="drawingApp.html">Drawing APP</a>
+                    <a class="current" href="processingApp.html">Processing APP</a>
+                </div>
+            </li>
+            <ul id="rightBar">
+                <li><a class="nav" href="../about.html">About</a></li>
+            </ul>
+        </ul>
+    </nav>
+    <footer>
+        <div>
+            <p>&copy; 2016 Copyright. All Rights Reserved By Vince Luo</p>
+        </div>
+    </footer>
+</body>
+</html>
